@@ -93,7 +93,7 @@ hi1.4xlarge       0.370           0.011        0              0.006
 ### Seaborn Plots from Juypter
 ![Spot Prices vs Spot Prices/ECU](https://user-images.githubusercontent.com/58792/30277517-e7016f3e-96bc-11e7-8dc9-348791ba7b47.png)
 
-![Cluster Facets]()
+![Cluster Facets](https://user-images.githubusercontent.com/58792/30278742-2380d3d4-96c0-11e7-951a-e2fd76f6e603.png)
 
 ### Jupyter Notebook Version
 
