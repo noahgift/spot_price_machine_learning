@@ -1,12 +1,19 @@
 # spot_price_machine_learning
 Machine Learning for Spot Prices
 
+## TO DO
+
+* Linear Optimization using Pyomo
+* Documentation
+
 ## This is One Day's worth of coding, still need to clean stuff up, but it works:
 
 To make sure it works, do something like below:
 
 ```make setup && make install```
-```source <your virtualenv>``
+
+```source <your virtualenv>```
+
 ```make lint```
 
 ## Problems Solved:  Recommended Spot Instances and Finding Deals
@@ -79,3 +86,5 @@ c4.8xlarge        0.557           0.004        0              0.009
 c4.xlarge         0.060           0.004        0              0.008
 hi1.4xlarge       0.370           0.011        0              0.006
 ```
+### Seaborn Plot from Juypter
+![Spot Prices vs Spot Prices/ECU](https://user-images.githubusercontent.com/58792/30277517-e7016f3e-96bc-11e7-8dc9-348791ba7b47.png)
