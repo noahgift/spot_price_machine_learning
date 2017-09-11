@@ -1,0 +1,12 @@
+awscli
+boto3
+moto
+pytest
+pylint
+sensible
+jupyter
+pytest-cov
+pandas
+nbval
+click
+sklearn
