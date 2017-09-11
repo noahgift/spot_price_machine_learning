@@ -43,6 +43,7 @@ jobs:
       - run:
           name: run tests
           command: |
+            export AWS_REGION=us-west-2
             . venv/bin/activate
             make test
 
