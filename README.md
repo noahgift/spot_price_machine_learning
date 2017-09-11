@@ -11,7 +11,9 @@ Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
 ## Assumptions, AWS account and/or profile with credentials.
 
 [happygolucky]
+
 aws_access_key_id = <foo>
+
 aws_secret_access_key = <bar>
 
 ## Running lint and tests
