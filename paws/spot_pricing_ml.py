@@ -17,10 +17,10 @@ def setup_spot_data(spot_instance_csv="../data/ec2-prices.csv"):
          pricing_df['linux_on_demand_cost_hourly']/pricing_df['compute_units_ecu']
     return pricing_df
 
-def get_spot_pricing_history(names, product_description="Linux/UNIX"):
+def get_spot_pricing_history(names, product_description="Linux/UNIX", region_name='us-west-2'):
     """Requires a list of instance types 'names' to look up price history for"""
 
-    client = boto3.client('ec2')
+    client = boto3.client('ec2', region_name=region_name)
     response =client.describe_spot_price_history(InstanceTypes = list(names.values()),
         ProductDescriptions = [product_description])
     spot_price_history = response['SpotPriceHistory']
