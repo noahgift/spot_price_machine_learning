@@ -1,4 +1,4 @@
-# spot_price_machine_learning
+# AWS Spot Price Machine Learning Tools
 Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
 
 ## TO DO
