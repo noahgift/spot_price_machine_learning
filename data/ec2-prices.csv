@@ -1,0 +1,54 @@
+Name,InstanceType,memory_gb,compute_units_ecu,vcpu,gpus,fpga,enhanced_networking,linux_on_demand_cost_hourly
+R3 High-Memory Large,r3.large,15.25,6.5,2,0,0,Yes,0.17
+M4 Large,m4.large,8,6.5,2,0,0,Yes,0.1
+R4 High-Memory Large,r4.large,15.25,7,2,0,0,Yes,0.13
+C4 High-CPU Large,c4.large,3.75,8,2,0,0,Yes,0.1
+General Purpose GPU Extra Large,p2.xlarge,61,12,4,1,0,Yes,0.9
+R3 High-Memory Extra Large,r3.xlarge,30.5,13,4,0,0,Yes,0.33
+M4 Extra Large,m4.xlarge,16,13,4,0,0,Yes,0.2
+R4 High-Memory Extra Large,r4.xlarge,30.5,13.5,4,0,0,Yes,0.27
+I2 Extra Large,i2.xlarge,30.5,14,4,0,0,No,0.85
+D2 Extra Large,d2.xlarge,30.5,14,4,0,0,Yes,0.69
+C4 High-CPU Extra Large,c4.xlarge,7.5,16,4,0,0,Yes,0.2
+M4 Double Extra Large,m4.2xlarge,32,26,8,0,0,Yes,0.4
+R3 High-Memory Double Extra Large,r3.2xlarge,61,26,8,0,0,Yes,0.67
+F1 Double Extra Large,f1.2xlarge,122,26,8,0,1,Yes,N/A
+I2 Double Extra Large,i2.2xlarge,61,27,8,0,0,No,1.71
+R4 High-Memory Double Extra Large,r4.2xlarge,61,27,8,0,0,Yes,0.53
+D2 Double Extra Large,d2.2xlarge,61,28,8,0,0,Yes,1.38
+C4 High-CPU Double Extra Large,c4.2xlarge,15,31,8,0,0,Yes,0.4
+Cluster GPU Quadruple Extra Large,cg1.4xlarge,22.5,33.5,16,0,0,No,N/A
+G3 Quadruple Extra Large,g3.4xlarge,122,47,16,1,0,Yes,1.14
+R3 High-Memory Quadruple Extra Large,r3.4xlarge,122,52,16,0,0,Yes,1.33
+I2 Quadruple Extra Large,i2.4xlarge,122,53,16,0,0,No,3.41
+R4 High-Memory Quadruple Extra Large,r4.4xlarge,122,53,16,0,0,Yes,1.06
+M4 Quadruple Extra Large,m4.4xlarge,64,53.5,16,0,0,Yes,0.8
+D2 Quadruple Extra Large,d2.4xlarge,122,56,16,0,0,Yes,2.76
+C4 High-CPU Quadruple Extra Large,c4.4xlarge,30,62,16,0,0,Yes,0.8
+Cluster Compute Eight Extra Large,cc2.8xlarge,60.5,88,32,0,0,No,2
+General Purpose GPU Eight Extra Large,p2.8xlarge,488,94,32,8,0,Yes,7.2
+G3 Eight Extra Large,g3.8xlarge,244,94,32,2,0,Yes,2.28
+R4 High-Memory Eight Extra Large,r4.8xlarge,244,99,32,0,0,Yes,2.13
+I2 Eight Extra Large,i2.8xlarge,244,104,32,0,0,No,6.82
+R3 High-Memory Eight Extra Large,r3.8xlarge,244,104,32,0,0,Yes,2.66
+D2 Eight Extra Large,d2.8xlarge,244,116,36,0,0,Yes,5.52
+M4 Deca Extra Large,m4.10xlarge,160,124.5,40,0,0,Yes,2
+C4 High-CPU Eight Extra Large,c4.8xlarge,60,132,36,0,0,Yes,1.59
+X1 Extra High-Memory 16xlarge,x1.16xlarge,976,174.5,64,0,0,Yes,6.67
+M4 16xlarge,m4.16xlarge,256,188,64,0,0,Yes,3.2
+General Purpose GPU 16xlarge,p2.16xlarge,732,188,64,16,0,Yes,14.4
+F1 16xlarge,f1.16xlarge,976,188,64,0,8,Yes,N/A
+G3 16xlarge,g3.16xlarge,488,188,64,4,0,Yes,4.56
+R4 High-Memory 16xlarge,r4.16xlarge,488,195,64,0,0,Yes,4.26
+X1 Extra High-Memory 32xlarge,x1.32xlarge,1952,349,128,0,0,Yes,13.34
+M3 General Purpose Medium,m3.medium,3.75,3,1,0,0,No,0.07
+M3 General Purpose Large,m3.large,7.5,6.5,2,0,0,No,0.13
+C3 High-CPU Large,c3.large,3.75,7,2,0,0,Yes,0.11
+M3 General Purpose Extra Large,m3.xlarge,15,13,4,0,0,No,0.27
+C3 High-CPU Extra Large,c3.xlarge,7.5,14,4,0,0,Yes,0.21
+M3 General Purpose Double Extra Large,m3.2xlarge,30,26,8,0,0,No,0.53
+C3 High-CPU Double Extra Large,c3.2xlarge,15,28,8,0,0,Yes,0.42
+HI1. High I/O Quadruple Extra Large,hi1.4xlarge,60.5,35,16,0,0,No,3.1
+High Storage Eight Extra Large,hs1.8xlarge,117,35,16,0,0,No,4.6
+C3 High-CPU Quadruple Extra Large,c3.4xlarge,30,55,16,0,0,Yes,0.84
+C3 High-CPU Eight Extra Large,c3.8xlarge,60,108,32,0,0,Yes,1.68

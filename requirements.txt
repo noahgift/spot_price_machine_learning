@@ -1,6 +1,5 @@
 awscli
 boto3
-moto
 pytest
 pylint
 sensible
@@ -10,3 +9,5 @@ pandas
 nbval
 click
 sklearn
+seaborn
+matplotlib
