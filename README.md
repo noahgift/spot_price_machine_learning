@@ -6,7 +6,9 @@ Machine Learning for Spot Prices
 To make sure it works, do something like below:
 
 ```make setup && make install```
-```source <your virtualenv>``
+
+```source <your virtualenv>```
+
 ```make lint```
 
 ## Problems Solved:  Recommended Spot Instances and Finding Deals
