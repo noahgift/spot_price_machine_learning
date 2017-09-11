@@ -1,6 +1,11 @@
 # spot_price_machine_learning
 Machine Learning for Spot Prices
 
+## TO DO
+
+* Linear Optimization using Pyomo
+* Documentation
+
 ## This is One Day's worth of coding, still need to clean stuff up, but it works:
 
 To make sure it works, do something like below:
