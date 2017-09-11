@@ -1,3 +1,5 @@
+[![CircleCI CircleCI Build Status](https://circleci.com/gh/noahgift/spot_price_machine_learning/tree/master.svg?style=svg)](https://circleci.com/gh/noahgift/spot_price_machine_learning/tree/master)
+
 # AWS Spot Price Machine Learning Tools
 Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
 
@@ -7,6 +9,10 @@ Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
 * Documentation
 
 ## Assumptions, AWS account and/or profile with credentials.
+
+[happygolucky]
+aws_access_key_id = <foo>
+aws_secret_access_key = <bar>
 
 ## Running lint and tests
 
