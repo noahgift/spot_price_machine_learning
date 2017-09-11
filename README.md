@@ -1,20 +1,24 @@
-# spot_price_machine_learning
-Machine Learning for Spot Prices
+# AWS Spot Price Machine Learning Tools
+Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
 
 ## TO DO
 
 * Linear Optimization using Pyomo
 * Documentation
 
-## This is One Day's worth of coding, still need to clean stuff up, but it works:
+## Assumptions, AWS account and/or profile with credentials.
+
+## Running lint and tests
 
 To make sure it works, do something like below:
 
 ```make setup && make install```
 
-```source <your virtualenv>```
+```source <your virtualenv>``` (not required)
 
 ```make lint```
+
+```make test``` Runs Jupyter notebook test of project
 
 ## Problems Solved:  Recommended Spot Instances and Finding Deals
 
@@ -86,5 +90,12 @@ c4.8xlarge        0.557           0.004        0              0.009
 c4.xlarge         0.060           0.004        0              0.008
 hi1.4xlarge       0.370           0.011        0              0.006
 ```
-### Seaborn Plot from Juypter
+### Seaborn Plots from Juypter
 ![Spot Prices vs Spot Prices/ECU](https://user-images.githubusercontent.com/58792/30277517-e7016f3e-96bc-11e7-8dc9-348791ba7b47.png)
+
+![Cluster Facets](https://user-images.githubusercontent.com/58792/30278742-2380d3d4-96c0-11e7-951a-e2fd76f6e603.png)
+
+### Jupyter Notebook Version
+
+https://github.com/noahgift/spot_price_machine_learning/blob/master/notebooks/spot_pricing_ml.ipynb
+
