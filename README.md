@@ -104,6 +104,35 @@ c4.8xlarge        0.557           0.004        0              0.009
 c4.xlarge         0.060           0.004        0              0.008
 hi1.4xlarge       0.370           0.011        0              0.006
 ```
+### Launch Self-Terminating Spot Instances
+
+Note, the defaults will need to be set for your environment:  security groups, keyname, etc.
+
+```
+(.spot-price-ml) ➜  spot_price_machine_learning git:(master) ./spot_launcher.py launch --help         
+Usage: spot_launcher.py launch [OPTIONS]
+
+  Request spot instance
+
+Options:
+  --instance TEXT       Instance Type
+  --duration TEXT       Duration
+  --keyname TEXT        Key Name
+  --profile TEXT        IamInstanceProfile
+  --securitygroup TEXT  Key Name
+  --ami TEXT            Key Name
+  --help                Show this message and exit.
+
+```
+To launch with a longer duration, say 1 hour and 55 minutes:
+```
+(.pragia-aws) ➜  pragai-aws git:(master) ✗ ./spot_launcher.py launch --duration 115
+
+
+2017-09-20 06:46:53,046 - __main__ - INFO - SPOT REQUEST DATA: {'SpotPrice': '0.8', 'Type': 'one-time', 'InstanceCount': 1, 'LaunchSpecification': {'ImageId': 'ami-6df1e514', 'InstanceType': 'r4.large', 'KeyName': 'pragai', 'IamInstanceProfile': {'Arn': 'arn:aws:iam::561744971673:instance-profile/admin'}, 'UserData': 'CiAgICAgICAgI2Nsb3VkLWNvbmZpZwogICAgICAgIHJ1bmNtZDoKICAgICAgICAgLSBlY2hvICJoYWx0IiB8IGF0IG5vdyArIDExNSBtaW4KICAgIA==', 'BlockDeviceMappings': [{'DeviceName': '/dev/xvda', 'Ebs': {'DeleteOnTermination': True, 'VolumeType': 'gp2', 'VolumeSize': 8}}], 'SecurityGroupIds': ['sg-61706e07']}}
+```
+
+
 ### Seaborn Plots from Juypter
 ![Spot Prices vs Spot Prices/ECU](https://user-images.githubusercontent.com/58792/30277517-e7016f3e-96bc-11e7-8dc9-348791ba7b47.png)
 
