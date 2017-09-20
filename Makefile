@@ -9,6 +9,6 @@ test:
 	PYTHONPATH=. && py.test --nbval-lax notebooks/*.ipynb
 
 lint:
-	pylint --disable=R,C paws spot-price-ml
+	pylint --disable=R,C paws spot-price-ml spot_launcher
 
 all: install lint test
