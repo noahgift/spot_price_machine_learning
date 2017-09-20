@@ -3,6 +3,12 @@
 # AWS Spot Price Machine Learning Tools
 Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
 
+## Contains two command-line tools
+
+* ![Spot Price ML](https://github.com/noahgift/spot_price_machine_learning/blob/master/spot-price-ml.py)
+* ![Spot Price Launcher](https://github.com/noahgift/spot_price_machine_learning/blob/master/spot_launcher.py)
+
+
 ## TO DO
 
 * Linear Optimization using Pyomo
