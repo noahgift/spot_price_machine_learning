@@ -1,12 +1,13 @@
 [![CircleCI CircleCI Build Status](https://circleci.com/gh/noahgift/spot_price_machine_learning/tree/master.svg?style=svg)](https://circleci.com/gh/noahgift/spot_price_machine_learning/tree/master)
 
 # AWS Spot Price Machine Learning Tools
-Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook
+
+Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook.  This material is covered in [Chapter 9 of Pragmatic AI](https://www.amazon.com/Pragmatic-AI-Introduction-Cloud-based-Learning/dp/0134863860)
 
 ## Contains two command-line tools
 
-* ![Spot Price ML](https://github.com/noahgift/spot_price_machine_learning/blob/master/spot-price-ml.py)
-* ![Spot Price Launcher](https://github.com/noahgift/spot_price_machine_learning/blob/master/spot_launcher.py)
+* [Spot Price ML](https://github.com/noahgift/spot_price_machine_learning/blob/master/spot-price-ml.py)
+* [Spot Price Launcher](https://github.com/noahgift/spot_price_machine_learning/blob/master/spot_launcher.py)
 
 
 ## TO DO
