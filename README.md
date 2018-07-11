@@ -2,7 +2,21 @@
 
 # AWS Spot Price Machine Learning Tools
 
-Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook.  This material is covered in [Chapter 9 of Pragmatic AI](https://www.amazon.com/Pragmatic-AI-Introduction-Cloud-based-Learning/dp/0134863860)
+Machine Learning for Spot Prices Command-Line Tool and Jupyter Notebook.  This material is covered in [Chapter 9 of Pragmatic AI](https://amzn.to/2LFLVEg)
+
+## Pragmatic AI Labs
+![alt text](https://paiml.com/images/logo_with_slogan_white_background.png)
+
+You can continue learning about these topics by:
+
+*   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
+*   Viewing more content at [noahgift.com](https://noahgift.com/)
+A few handy bits of functionality:
+
+* Can checkout all repositories in Github
+* Converts a tree of checked out repositories on disk into a pandas dataframe
+* Statistics on combined DataFrames
+
 
 ## Contains two command-line tools
 
