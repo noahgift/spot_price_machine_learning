@@ -11,11 +11,6 @@ You can continue learning about these topics by:
 
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
-A few handy bits of functionality:
-
-* Can checkout all repositories in Github
-* Converts a tree of checked out repositories on disk into a pandas dataframe
-* Statistics on combined DataFrames
 
 
 ## Contains two command-line tools
