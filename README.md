@@ -152,3 +152,10 @@ To launch with a longer duration, say 1 hour and 55 minutes:
 
 https://github.com/noahgift/spot_price_machine_learning/blob/master/notebooks/spot_pricing_ml.ipynb
 
+<!-- funnel:start -->
+---
+
+**Learn Python for data and AI engineering:** [AI Debugging and Test-Driven Fixes (Coursera)](https://www.coursera.org/learn/ai-debugging?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=spot_price_machine_learning) · [Applied Python Data Engineering, Duke (Coursera)](https://www.coursera.org/specializations/python-data-engineering?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=spot_price_machine_learning) · [Data Engineering with Python and Linux program (edX)](https://www.edx.org/certificates/professional-certificate/ai-data-engineering-with-python-and-linux?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=spot_price_machine_learning)
+
+More courses from [Noah Gift](https://github.com/noahgift) and Pragmatic AI Labs.
+<!-- funnel:end -->
